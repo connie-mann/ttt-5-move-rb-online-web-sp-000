@@ -6,6 +6,6 @@ def move(board, position, token='X')
   board [position] = token
 end
 
-def move(board, index, player)
-board[index] = player
+def "board"
+  [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ']
 end

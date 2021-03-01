@@ -6,11 +6,6 @@ def move(board, position, token='X')
   board [position] = token
 end
 
-def position_taken?(board, index)
-if (board[index] == " ") || (board[index] == "") || (board[index]
-== nil)
-return false
-else
-return true
-  end
+def move(board, index, player)
+board[index] = player
 end

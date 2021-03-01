@@ -6,8 +6,5 @@ def move(board, position, token='X')
   board [position] = token
 end
 
-def display_board [" "," "," "," "," "," "," "," "," "]
-end
-
-display board = [" "," "," "," "," "," "," "," "," "]
+def display board = [" "," "," "," "," "," "," "," "," "]
 display_board(board)

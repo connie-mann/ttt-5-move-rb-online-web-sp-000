@@ -5,6 +5,3 @@ end
 def move(board, position, token='X')
   board [position] = token
 end
-
-def display_board
-end
